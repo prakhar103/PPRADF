@@ -1,0 +1,9 @@
+{
+	"name": "PPR103ADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "53801dcd-2645-4bf1-a5cd-58a96448fb5b",
+		"tenantId": "1aed4588-b8ce-43a8-a775-989538fd30d8"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ASQLDest",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Emp"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
