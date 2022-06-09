@@ -145,6 +145,13 @@
 						"referenceName": "Empfilesouce",
 						"type": "DatasetReference"
 					},
+					"logStorageSettings": {
+						"linkedServiceName": {
+							"referenceName": "ls_empfile",
+							"type": "LinkedServiceReference"
+						},
+						"path": "archivefolder"
+					},
 					"enableLogging": true,
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
