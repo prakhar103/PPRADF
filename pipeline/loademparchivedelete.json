@@ -13,7 +13,16 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "Source",
+						"value": "fatfilesource//"
+					},
+					{
+						"name": "Destination",
+						"value": "dbo.Emp"
+					}
+				],
 				"typeProperties": {
 					"source": {
 						"type": "DelimitedTextSource",
@@ -44,7 +53,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Empfilesouce",
+						"referenceName": "ds_filepath",
 						"type": "DatasetReference"
 					}
 				],
@@ -98,22 +107,8 @@
 							"fileExtension": ".txt"
 						}
 					},
-					"enableStaging": false,
-					"translator": {
-						"type": "TabularTranslator",
-						"typeConversion": true,
-						"typeConversionSettings": {
-							"allowDataTruncation": true,
-							"treatBooleanAsNumber": false
-						}
-					}
+					"enableStaging": false
 				},
-				"inputs": [
-					{
-						"referenceName": "Empfilesouce",
-						"type": "DatasetReference"
-					}
-				],
 				"outputs": [
 					{
 						"referenceName": "ds_Emparchive",
@@ -141,10 +136,6 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"dataset": {
-						"referenceName": "Empfilesouce",
-						"type": "DatasetReference"
-					},
 					"logStorageSettings": {
 						"linkedServiceName": {
 							"referenceName": "ls_empfile",
