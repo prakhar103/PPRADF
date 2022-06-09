@@ -12,7 +12,7 @@
 			"ssisProperties": {
 				"catalogInfo": {
 					"catalogServerEndpoint": "ppr103test.database.windows.net",
-					"catalogAdminUserName": "shweta.jha@conduent.com",
+					"catalogAdminUserName": "prakhar103",
 					"catalogAdminPassword": {
 						"type": "SecureString",
 						"value": "**********"
