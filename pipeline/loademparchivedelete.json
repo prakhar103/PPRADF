@@ -136,6 +136,10 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"dataset": {
+						"referenceName": "ds_filepath",
+						"type": "DatasetReference"
+					},
 					"logStorageSettings": {
 						"linkedServiceName": {
 							"referenceName": "ls_empfile",
