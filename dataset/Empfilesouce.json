@@ -1,0 +1,21 @@
+{
+	"name": "Empfilesouce",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_empfile",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "fatfilesource"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
