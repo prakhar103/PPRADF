@@ -50,7 +50,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlDest",
+						"referenceName": "sql_dest",
 						"type": "DatasetReference"
 					}
 				]
@@ -144,6 +144,13 @@
 					"dataset": {
 						"referenceName": "DelimitedText2",
 						"type": "DatasetReference"
+					},
+					"logStorageSettings": {
+						"linkedServiceName": {
+							"referenceName": "ls_loadEmpfileandarchive",
+							"type": "LinkedServiceReference"
+						},
+						"path": "archive"
 					},
 					"enableLogging": true,
 					"storeSettings": {

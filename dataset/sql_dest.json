@@ -1,0 +1,12 @@
+{
+	"name": "sql_dest",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ASQLDest",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
