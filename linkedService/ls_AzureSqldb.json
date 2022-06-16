@@ -1,0 +1,12 @@
+{
+	"name": "ls_AzureSqldb",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=aviserver.database.windows.net;initial catalog=db_avi;user id=ppr",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE3MUJFQTUyLUUwNEUtNEIyMC1CRUU3LUM4MUM4NEFGMEQwNV8wMzIwM2EwNC01OTdlLTQ1MjktOWE2MC02MTY0NTBjNTU4MGUiDQp9"
+		}
+	}
+}
